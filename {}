@@ -1,0 +1,2 @@
+--> Sending SIGTERM to other processes..
+[jest] jest --runInBand --verbose exited with code 1
