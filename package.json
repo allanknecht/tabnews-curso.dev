@@ -1,7 +1,7 @@
 {
   "name": "tabnews-curso.dev",
   "version": "1.0.0",
-  "description": "",
+  "description": "Implementação do tabnews (do curso.dev)",
   "main": "index.js",
   "scripts": {
     "test": "npm run services:up && concurrently --names next,jest --hide next --k --s command-jest \"next dev\" \"jest --runInBand --verbose\"",
