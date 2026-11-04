@@ -1,9 +1,13 @@
+import Link from "next/link";
+
 function Home() {
   return (
     <main>
       <h1>Olá</h1>
       <p>Um lugar simples para acompanhar o que está no ar.</p>
-      <a href="/status">Ver status</a>
+      <Link className="status-link" href="/status">
+        Ver status
+      </Link>
       <style jsx>{`
         main {
           max-width: 32rem;
@@ -24,7 +28,7 @@ function Home() {
           color: #52606d;
           line-height: 1.5;
         }
-        a {
+        .status-link {
           color: #1f2933;
           font-weight: 600;
         }
